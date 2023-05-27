@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Compra tickets</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="div1">
+          <p>Conf Bs As</p>
+        </div>
+        <nav>
+          <a href="#La conferencia" id="n1">La conferencia</a>
+          <a href="#Los oradores" id="n1">Los oradores</a>
+          <a href="#El lugar y la fecha" id="n1">El lugar y la fecha</a>
+          <a href="#Conviertete en orador" id="n2">Conviertete en orador</a>
+          <a href="#Comprar tickets" id="n3">Comprar tickets</a>
+        </nav>
+      </header>
+      <main>
+        <section class="sec1">
+            <div class="div2">
+                <h3>Estudiante</h3>
+                <p>Tiene un descuento</p>
+                <p>80%</p>
+                <p>*presentar documentacion</p>
+            </div>
+            <div class="div3">
+                <h3>Trainee</h3>
+                <p>Tiene un descuento</p>
+                <p>50%</p>
+                <p>*presentar documentacion</p>
+            </div>
+            <div class="div4">
+                <h3>Junior</h3>
+                <p>Tiene un descuento</p>
+                <p>15%</p>
+                <p>*presentar documentacion</p>
+            </div>
+        </section>
+        <section class="sec2">
+            <div class="div5" id="valorTicket">
+                <h5>VENTA</h5>
+                <h1>VALOR DE TICKET $200</h1>
+            </div>
+        </section>
+        <section class="sec3">
+            <form id="form_conversor">
+                <div class="div6">
+                    <input id="b1" type="text" placeholder="Nombre:">
+                    <input id="b2" type="text" placeholder="Apellido:">
+                   </div>
+
+                <div class="div7">
+                    <input id="b3" type="text" placeholder="Correo:">
+                </div>
+                <section class="sec4">
+                    <div class="div8">
+                        <label for="Cantidad">Cantidad</label>
+                        <input id="Cantidad" type="text" placeholder="cantidad">
+                        </div>
+    
+                        <div class=div11>
+                            <label for="Categoria">Categoria</label>
+                        <select name="select" id="Categoria">
+                        <option value="Estudiante">Estudiante</option>
+                        <option value="Trainee">Trainee</option>
+                        <option value="Junior">Junior</option>
+                        </select>
+                        </div>
+                </section>
+                <div class="div9" id="resultado">
+                    <p>Total a Pagar:$ </p>
+                </div>
+               
+                <div class="div10">
+                    <button class="button1" type="reset">Borrar</button>
+                    <button class="button2" type="submit">Resumen</button>
+                </div>
+            </form>
+        </section>
+        <footer>
+            <nav id="nav1">
+              <a href="#Preguntas frecuentes">Preguntas <br> frecuentes</a>
+              <a href="#Contactanos">Contactanos</a>
+              <a href="#Prensa">Prensa</a>
+              <a href="#Conferencias">Conferencias</a>
+              <a href="#Terminos y condiciones">Terminos <br> y condiciones</a>
+              <a href="#Privacidad">Privacidad</a>
+              <a href="#Estudiantes">Estudiantes</a>
+            </nav>
+          </footer>
+      </main>
+      <script src="script.js"></script>
+</body>
+</html>
